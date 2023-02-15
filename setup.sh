@@ -11,4 +11,4 @@ port = $PORT\n\
 " > ~/.streamlit/config.toml
 
 pip freeze --upgrade pip
-pip install pywin32
+pip install pywin32 --upgrade
