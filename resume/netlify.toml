@@ -1,0 +1,3 @@
+[build]
+  command = "pip install -r requirements.txt && streamlit run resume.py"
+  publish = "Resume/streamlit_build"
