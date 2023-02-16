@@ -1,3 +1,6 @@
 [build]
   command = "pip install -r requirements.txt && streamlit run resume.py"
   publish = "Resume/streamlit_build"
+
+[build.environment]
+PYTHON_VERSION = "3.10.4"
