@@ -4,16 +4,16 @@ from PIL import Image
 import pandas as pd
 
 
-video_file = open('portfolio.mp4', 'rb')
+video_file = open('resume/portfolio.mp4', 'rb')
 video_bytes = video_file.read()
 
-video_file = open('wego.mp4', 'rb')
+video_file = open('resume/wego.mp4', 'rb')
 video_byte = video_file.read()
 
-with open("Aakash.pdf","rb") as pdf_file:
+with open("resume/Aakash.pdf","rb") as pdf_file:
   PDFbyte=pdf_file.read()
 
-with open("Calculator_AakashNambiar.ipynb","rb") as py_file:
+with open("resume/Calculator_AakashNambiar.ipynb","rb") as py_file:
   PY_file1=py_file.read()
 
 with open("Rock-Paper-Scissors_Aakash Nambiar.ipynb","rb") as py_file2:
