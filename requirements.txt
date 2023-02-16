@@ -2,6 +2,6 @@ matplotlib
 numpy
 pandas
 Pillow
-pywin32
+pywin32==305
 seaborn
-streamlit
+streamlit==1.16.0
