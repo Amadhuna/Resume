@@ -1,5 +1,5 @@
 [build]
-  publish = "streamlit_resume"
+  publish = "streamlit_Resume"
   command = "pip install -r requirements.txt && streamlit run resume.py"
 
 [context.production.environment]
