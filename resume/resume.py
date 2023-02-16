@@ -1,8 +1,7 @@
 from pathlib import Path
 import streamlit as st
 from PIL import Image
-import pandas as pd 
-import win32api
+import pandas as pd
 
 
 video_file = open('portfolio.mp4', 'rb')
