@@ -3,4 +3,4 @@
   publish = "Resume/streamlit_build"
 
 [build.environment]
-PYTHON_VERSION = "3.10.4"
+PYTHON_VERSION = "3.8"
