@@ -4,3 +4,5 @@
 
 [build.environment]
 PYTHON_VERSION = "3.8"
+LIBRARY_PATH = "/opt/buildhome/python3.8/lib"
+LD_LIBRARY_PATH = "/opt/buildhome/python3.8/lib"
