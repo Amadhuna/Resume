@@ -1,5 +1,5 @@
 [build]
-  command = "pip install -r requirements.txt && streamlit run resume.py"
+  command = "pip install matplotlib==3.7.0 numpy==1.24.2 pandas==1.5.3 Pillow==9.4.0 && streamlit run resume.py"
   publish = "Resume/streamlit_build"
 
 [build.environment]
