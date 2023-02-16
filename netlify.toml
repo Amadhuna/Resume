@@ -1,8 +1,6 @@
 [build]
-  command = "pip install matplotlib==3.7.0 numpy==1.24.2 pandas==1.5.3 Pillow==9.4.0 && streamlit run resume.py"
+  command = "pip install matplotlib==3.4.2 numpy==1.21.5 pandas==1.3.5 Pillow==9.0.0 && streamlit run resume.py"
   publish = "Resume/streamlit_build"
 
 [build.environment]
-PYTHON_VERSION = "3.8"
-LIBRARY_PATH = "/opt/buildhome/python3.8/lib"
-LD_LIBRARY_PATH = "/opt/buildhome/python3.8/lib"
+  PYTHON_VERSION = "3.8"
