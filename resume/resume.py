@@ -391,9 +391,9 @@ Below are the projects I completed while learning Data Science and Machine Learn
     mime='application/octet-stream'
   )
   
-  if rad=="Statement of Purpose":
-    st.title("Statement of Purpose")
-    st.markdown("""
+if rad=="Statement of Purpose":
+  st.title("Statement of Purpose")
+  st.markdown("""
     I am a highly motivated and technically proficient data science fresher seeking to join a dynamic organization where I can apply my skills and knowledge. With a background in aeronautical engineering and a two-year break to explore my interests and goals, I am now focused on pursuing a career in data science and AI.During my break, I utilized my time to develop my writing and design skills, while exploring new areas of interest such as animation and graphic design. After consulting with friends and conducting extensive research, I decided to focus my career on data science and AI. I have experience in data science, machine learning, data visualization, NLP, creating prediction models, and deployment. I am proficient in programming languages such as Python.
 I am passionate about data science and eager to learn and explore new applications of the field. I am excited to join a team that values creativity, innovation, and critical thinking. I am a highly adaptable individual and a quick learner, and am confident that my skills and experience make me a strong candidate for any data science or AI-related role.
 Thank you for considering my application. I look forward to the opportunity to further discuss how I can contribute to the success of your organization.
