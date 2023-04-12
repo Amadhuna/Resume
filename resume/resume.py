@@ -374,7 +374,7 @@ Below are the projects I completed while learning Data Science and Machine Learn
   Tools used - :red[Jupyter Notebook, Tkinter]
   """)
 
-  st.image("resume/TICTACTOE.png")
+  st.image("resume/TICTACTOE.PNG")
   st.download_button(
     label= "Download Game files",
     data=PY_file3,
