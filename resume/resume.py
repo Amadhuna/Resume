@@ -24,7 +24,7 @@ with open("resume/Xand0-AakashNambiar.ipynb","rb") as py_file3:
 
 data=pd.read_csv("resume/winequality-red.csv")
 
-with open("style.css") as f:
+with open("resume/style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 def txt(a, b):
