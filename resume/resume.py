@@ -10,7 +10,7 @@ video_bytes = video_file.read()
 video_file = open('resume/wego.mp4', 'rb')
 video_byte = video_file.read()
 
-with open("Aakash.pdf","rb") as pdf_file:
+with open("resume/Aakash.pdf","rb") as pdf_file:
   PDFbyte=pdf_file.read()
 
 with open("resume/Calculator_AakashNambiar.ipynb","rb") as py_file:
