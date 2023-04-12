@@ -361,7 +361,7 @@ Below are the projects I completed while learning Data Science and Machine Learn
   st.download_button(
     label= "Download Calculator files",
     data=PY_file1,
-    file_ame="Calculator_AakashNambiar.ipynb",
+    file_name="Calculator_AakashNambiar.ipynb",
     mime='application/octet-stream'
 
   )
