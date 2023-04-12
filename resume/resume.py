@@ -7,22 +7,22 @@ import pandas as pd
 video_file = open('resume/portfolio.mp4', 'rb')
 video_bytes = video_file.read()
 
-video_file = open('wego.mp4', 'rb')
+video_file = open('resume/wego.mp4', 'rb')
 video_byte = video_file.read()
 
 with open("Aakash.pdf","rb") as pdf_file:
   PDFbyte=pdf_file.read()
 
-with open("Calculator_AakashNambiar.ipynb","rb") as py_file:
+with open("resume/Calculator_AakashNambiar.ipynb","rb") as py_file:
   PY_file1=py_file.read()
 
-with open("Rock-Paper-Scissors_Aakash Nambiar.ipynb","rb") as py_file2:
+with open("resume/Rock-Paper-Scissors_Aakash Nambiar.ipynb","rb") as py_file2:
   PY_file2=py_file2.read()
 
-with open("Xand0-AakashNambiar.ipynb","rb") as py_file3:
+with open("resume/Xand0-AakashNambiar.ipynb","rb") as py_file3:
   PY_file3=py_file3.read()
 
-data=pd.read_csv("winequality-red.csv")
+data=pd.read_csv("resume/winequality-red.csv")
 
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
@@ -54,7 +54,7 @@ if rad=="Summary":
   ##### *Resume* 
   """)
 
-  image = Image.open('photo.jpg')
+  image = Image.open('resume/photo.jpg')
   st.image(image, width=150)
     
   st.markdown('<div style="text-align: center;"> Summary', unsafe_allow_html=True  )
@@ -357,7 +357,7 @@ Below are the projects I completed while learning Data Science and Machine Learn
   Tools used - :red[Jupyter Notebook, Tkinter]
   """)
 
-  st.image("Calculator.png")
+  st.image("resume/Calculator.png")
   st.download_button(
     label= "Download Calculator files",
     data=PY_file1,
@@ -374,7 +374,7 @@ Below are the projects I completed while learning Data Science and Machine Learn
   Tools used - :red[Jupyter Notebook, Tkinter]
   """)
 
-  st.image("TICTACTOE.png")
+  st.image("resume/TICTACTOE.png")
   st.download_button(
     label= "Download Game files",
     data=PY_file3,
