@@ -4,7 +4,7 @@ from PIL import Image
 import pandas as pd
 
 
-video_file = open('portfolio.mp4', 'rb')
+video_file = open('/opt/render/project/src/resume/portfolio.mp4', 'rb')
 video_bytes = video_file.read()
 
 video_file = open('wego.mp4', 'rb')
